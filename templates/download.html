@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Ready</title>
+    <link rel="stylesheet" href="../static/css/download.css" />
+</head>
+<body>
+    <h1>Your video is ready!</h1>
+    <a href="{{ url_for('serve_file', filename=filename) }}">Click here to download</a>
+</body>
+</html>
